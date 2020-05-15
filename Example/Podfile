@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TPHomeModule_Example' do
+  pod 'TPHomeModule', :path => '../'
+
+  target 'TPHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
